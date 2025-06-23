@@ -61,7 +61,6 @@
                         <h5 class="card-title">💻 개발 정보</h5>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">버전: <span th:text="${version}">1.0.0</span></li>
-                            <li class="list-group-item">개발자: <span th:text="${developer}">개발자명</span></li>
                             <li class="list-group-item">기술스택: Spring Boot 3.5.3, Java 17</li>
                             <li class="list-group-item">데이터베이스: H2 (개발용)</li>
                         </ul>
@@ -96,11 +95,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         function checkStatus() {
-            alert('✅ 시스템이 정상 작동 중입니다!\n- Spring Boot 서버: 실행 중\n- 데이터베이스: H2 연결됨\n- 웹 인터페이스: 정상');
+            alert(' 시스템이 정상 작동 중입니다!\n- Spring Boot 서버: 실행 중\n- 데이터베이스: H2 연결됨\n- 웹 인터페이스: 정상');
         }
 
         function showInfo() {
-            alert('📊 프로젝트 정보\n\n🎯 목표: AI 기반 뉴스 큐레이션\n📅 개발기간: 2주\n🔧 기술스택: Spring Boot 3.5.3 + Java 17\n🤖 AI: OpenAI + Claude API');
+            alert(' 프로젝트 정보\n\n 목표: AI 기반 뉴스 큐레이션\n 기술스택: Spring Boot 3.5.3 + Java 17\n');
         }
 
         // 페이지 로드 시 환영 메시지
